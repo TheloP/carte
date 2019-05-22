@@ -20,17 +20,21 @@
 var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
-  "Youcef": { "lat": 48.852969, "lon": 2.349903 }, 
-  "Geoffrey": { "lat": 48.383, "lon": -4.500 },
-  "Baptiste": { "lat": 48.000, "lon": -4.100 },
-  "Justin": { "lat": 43.500, "lon": -1.467 },
+
+  "Marrakech": { "lat": 31.630000, "lon": -8.008889 },
+  "Beaufort": { "lat": 45.7174453, "lon": 6.5732569 },
+  "SOFIA": { "lat": 42.695343, "lon": 23.321078},
+  "Monteton": { "lat": 44.6167, "lon": 0.25 },
   "Marc": { "lat": 43.500, "lon": -1.467 },
-  "Sarah": { "lat": 43.500, "lon": -1.467 },
+  "Sarah": { "lat": 42.309409, "lon": 9.149022 },
   "Maël": { "lat": 43.500, "lon": -1.467 },
   "Thélo": { "lat": 43.500, "lon": -1.467 },
   "Camille": { "lat": 43.500, "lon": -1.467 },
   "Erwan": { "lat": 43.500, "lon": -1.467 },
   "ARRAS": { "lat": 50.293, "lon": 2.7819 },
+  "Erwan": { "lat": 49.606224, "lon": 3.218650 },
+
+
 };
 
 window.onload = function(){
@@ -54,19 +58,19 @@ window.onload = function(){
     <div class="columns">
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2"> <!--  Mettre en id ville_nomville -->
+        <div id="ville_Marrakech" class="card bg-dark m-2"> <!--  Mettre en id ville_nomville -->
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Youcef</div> <!--  Nom ville-->
-            <div class="card-subtitle text-gray">Capitale</div> <!-- Titre -->
+            <div class="card-title h5">Marrakech</div> <!--  Nom ville-->
+            <div class="card-subtitle text-gray">La Ville Rouge</div> <!-- Titre -->
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive"> <!--  Image -->
+            <img src="http://infostourismemaroc.com/src/img/villes/Marrakech/marrakech-safi-tourisme-maroc-infos.png" class="img-responsive"> <!--  Image -->
           </div>
           <div class="card-body bg-secondary text-dark"> <!--  Description -->
-            Insérez description...
+            Marrakech est un lieu touristique important pour le Maroc. On la surnomme "La Ville Rouge" à cause de la couleur de nombre de ses bâtiments. Le style de vie y est relativement proche de l'Occident, en tout cas plus proche que d'autres régions reculées du Maroc comme l'Atlas ...
           </div>
         </div>
       </div>
@@ -76,15 +80,17 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Geoffrey</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Beaufort</div>
+            <div class="card-subtitle text-gray">Ville fromage</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Beaufort_%28fromage%29_01.jpg/260px-Beaufort_%28fromage%29_01.jpg">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Beaufort (nommée également Beaufort-sur-Doron localement et par les services postaux) est une commune française située dans le département de la Savoie, en région Auvergne-Rhône-Alpes.
+
+La commune est la principale localité du Beaufortain qui lui doit son nom. La station touristique d'été et d'hiver d'Arêches-Beaufort est englobée dans le périmètre de la commune.
           </div>
         </div>
       </div>
@@ -94,15 +100,15 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Baptiste</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">SOFIA</div>
+            <div class="card-subtitle text-gray">Bulgarie</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src=maxresdefault.jpg class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+Sofia est la capitale de la Bulgarie dans les Balkans. Elle se trouve à l'ouest du pays, au pied du massif montagneux du Vitocha. Ses monuments témoignent de ses plus de 2 000 ans d'histoire avec notamment les occupations grecque, romaine, ottomane et soviétique. L'église médiévale de Boyana est ornée de fresques datant du XIIIe siècle. Construite par les Romains au IVe siècle, l'église de la rotonde Saint-Georges est dotée de décorations médiévales et ottomanes remontant au Xe siècle.
           </div>
         </div>
       </div>
@@ -112,55 +118,56 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Justin</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Monteton</div>
+            <div class="card-subtitle text-gray">Petit village paumé</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozqPppgAVqVpGIn7XuHccEyRkvOw-HJAPFiwGTyfaCzPnS2ox" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Monteton la ville qui t'étonne un max
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Marc</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Varsovie</div>
+            <div class="card-subtitle text-gray">Capitale de la Pologne</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="320px-Chc%C4%99_krzycze%C4%87,_chc%C4%99_rycze%C4%87,_chc%C4%99_%C5%9Bpiewa%C4%87..._(3873896715).jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Varsovie, Capitale de la Pologne est la plus grande ville du pays et la 8ème de l'union européenne, elle renait de ces cendre depuis la deuxième guerre mondiale
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Sarah</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">CORTE by SARAH</div>
+            <div class="card-subtitle text-gray">Ville de corse</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Corti.JPG/280px-Corti.JPG" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Corte ([kɔʁ.ˈte]) est une commune française située dans la circonscription départementale de la Haute-Corse et le territoire de la collectivité de Corse. La ville appartient à la piève de Talcini dont elle est historiquement le chef-lieu.
+Occupant une position centrale dans l'île, Corte est la capitale historique et culturelle de la Corse. La « cité paoline » fut en effet choisie par Pascal Paoli comme capitale de la Corse indépendante (entre 1755 et 1769). Sa citadelle abrite depuis 1997 le musée de la Corse. La ville est également le siège de l'université de Corse Pascal-Paoli, rouverte en 1981, qui accueille environ 4 000 étudiants.
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -178,7 +185,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -196,43 +203,43 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Camille</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Molineuf</div>
+            <div class="card-subtitle text-gray">Loir-et-cher</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="http://lamolineuvoise.fr/images/PC160343.JPG" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Village d'un autre temps
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Erwan</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Erwan - CHAUNY</div>
+            <div class="card-subtitle text-gray">Ville de naissance</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://www.survoldefrance.fr/photos/highdef/31/31589.jpg" class="img-responsive" style="height:200px;">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+           La Meilleure ville du monde !
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -249,9 +256,9 @@ window.onload = function(){
             Arras est une ville française considéré comme étant la capitale historique et administrative du département du Pas-de-Calais.
         </div>
       </div>
-        
-        
-        
+
+
+
 
     </div>
 
