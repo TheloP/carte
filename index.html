@@ -20,10 +20,17 @@
 var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
-  "Paris": { "lat": 48.852969, "lon": 2.349903 },
-  "Brest": { "lat": 48.383, "lon": -4.500 },
-  "Quimper": { "lat": 48.000, "lon": -4.100 },
-  "Bayonne": { "lat": 43.500, "lon": -1.467 }
+  "Youcef": { "lat": 48.852969, "lon": 2.349903 }, 
+  "Geoffrey": { "lat": 48.383, "lon": -4.500 },
+  "Baptiste": { "lat": 48.000, "lon": -4.100 },
+  "Justin": { "lat": 43.500, "lon": -1.467 },
+  "Marc": { "lat": 43.500, "lon": -1.467 },
+  "Sarah": { "lat": 43.500, "lon": -1.467 },
+  "Stockholm": { "lat": 59.334591, "lon": 18.063240 },
+  "Thélo": { "lat": 43.500, "lon": -1.467 },
+  "Camille": { "lat": 43.500, "lon": -1.467 },
+  "Erwan": { "lat": 43.500, "lon": -1.467 },
+  "Bastien": { "lat": 43.500, "lon": -1.467 },
 };
 
 window.onload = function(){
@@ -47,18 +54,18 @@ window.onload = function(){
     <div class="columns">
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Paris" class="card bg-dark m-2"> <!--  Mettre en id ville_nomville -->
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Youcef</div> <!--  Nom ville-->
+            <div class="card-subtitle text-gray">Capitale</div> <!-- Titre -->
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive"> <!--  Image -->
           </div>
-          <div class="card-body bg-secondary text-dark">
+          <div class="card-body bg-secondary text-dark"> <!--  Description -->
             Insérez description...
           </div>
         </div>
@@ -69,7 +76,7 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Brest</div>
+            <div class="card-title h5">Geoffrey</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
@@ -87,7 +94,7 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Quimper</div>
+            <div class="card-title h5">Baptiste</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
@@ -105,7 +112,7 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
+            <div class="card-title h5">Justin</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
@@ -117,6 +124,135 @@ window.onload = function(){
           </div>
         </div>
       </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bayonne" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Marc</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Insérez description...
+          </div>
+        </div>
+      </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bayonne" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Sarah</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Insérez description...
+          </div>
+        </div>
+      </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Stockholm" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Stockholm</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://dessinemoiunvoyage.com/wp-content/uploads/2015/12/Scandinavie-bergen.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Stockholm est la capitale et la plus grande ville de Suède. Elle est le siège du gouvernement et du parlement suédois ainsi que le lieu de résidence officiel du roi Charles XVI Gustave.
+          </div>
+        </div>
+      </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bayonne" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Thélo</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Insérez description...
+          </div>
+        </div>
+      </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bayonne" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Camille</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Insérez description...
+          </div>
+        </div>
+      </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bayonne" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Erwan</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Insérez description...
+          </div>
+        </div>
+      </div>
+        
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bayonne" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Bastien</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Insérez description...
+          </div>
+        </div>
+      </div>
+        
+        
+        
 
     </div>
 
