@@ -20,16 +20,17 @@
 var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
-  "Youcef": { "lat": 48.852969, "lon": 2.349903 }, 
+
+  "Marrakech": { "lat": 31.630000, "lon": -8.008889 }, 
   "Geoffrey": { "lat": 48.383, "lon": -4.500 },
-  "Baptiste": { "lat": 48.000, "lon": -4.100 },
-  "Monteton": { "lat": 44.6225041, "lon": 0.2568385 },
+  "SOFIA": { "lat": 42.695343, "lon": 23.321078},
+  "Justin": { "lat": 43.500, "lon": -1.467 },
   "Marc": { "lat": 43.500, "lon": -1.467 },
   "Sarah": { "lat": 43.500, "lon": -1.467 },
   "Maël": { "lat": 43.500, "lon": -1.467 },
   "Thélo": { "lat": 43.500, "lon": -1.467 },
   "Camille": { "lat": 43.500, "lon": -1.467 },
-  "Erwan": { "lat": 43.500, "lon": -1.467 },
+  "Erwan": { "lat": 49.606224, "lon": 3.218650 },
   "Bastien": { "lat": 43.500, "lon": -1.467 },
 };
 
@@ -54,19 +55,19 @@ window.onload = function(){
     <div class="columns">
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2"> <!--  Mettre en id ville_nomville -->
+        <div id="ville_Marrakech" class="card bg-dark m-2"> <!--  Mettre en id ville_nomville -->
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Youcef</div> <!--  Nom ville-->
-            <div class="card-subtitle text-gray">Capitale</div> <!-- Titre -->
+            <div class="card-title h5">Marrakech</div> <!--  Nom ville-->
+            <div class="card-subtitle text-gray">La Ville Rouge</div> <!-- Titre -->
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive"> <!--  Image -->
+            <img src="http://infostourismemaroc.com/src/img/villes/Marrakech/marrakech-safi-tourisme-maroc-infos.png" class="img-responsive"> <!--  Image -->
           </div>
           <div class="card-body bg-secondary text-dark"> <!--  Description -->
-            Insérez description...
+            Marrakech est un lieu touristique important pour le Maroc. On la surnomme "La Ville Rouge" à cause de la couleur de nombre de ses bâtiments. Le style de vie y est relativement proche de l'Occident, en tout cas plus proche que d'autres régions reculées du Maroc comme l'Atlas ...
           </div>
         </div>
       </div>
@@ -95,14 +96,14 @@ window.onload = function(){
                  la ville Afonctionne -->
           <div class="card-header">
             <div class="card-title h5">Baptiste</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-subtitle text-gray">SOFIA</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src=maxresdefault.jpg class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Sofia est la capitale de la Bulgarie dans les Balkans. Elle se trouve à l'ouest du pays, au pied du massif montagneux du Vitocha. Ses monuments témoignent de ses plus de 2 000 ans d'histoire avec notamment les occupations grecque, romaine, ottomane et soviétique. L'église médiévale de Boyana est ornée de fresques datant du XIIIe siècle. Construite par les Romains au IVe siècle, l'église de la rotonde Saint-Georges est dotée de décorations médiévales et ottomanes remontant au Xe siècle.
           </div>
         </div>
       </div>
@@ -124,7 +125,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -142,7 +143,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -160,7 +161,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -178,7 +179,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -196,43 +197,43 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Camille</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Molineuf</div>
+            <div class="card-subtitle text-gray">Loir-et-cher</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="http://lamolineuvoise.fr/images/PC160343.JPG" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Village d'un autre temps
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Erwan</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Erwan - CHAUNY</div>
+            <div class="card-subtitle text-gray">Ville de naissance</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://www.survoldefrance.fr/photos/highdef/31/31589.jpg" class="img-responsive" style="height:200px;">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+           La Meilleure ville du monde !
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -250,9 +251,9 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
-        
-        
+
+
+
 
     </div>
 
